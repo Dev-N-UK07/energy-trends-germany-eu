@@ -36,3 +36,6 @@ This project explores the transition in energy sources using data from Eurostat 
 
 ##  Project Structure
 
+---
+
+##  How to Run
