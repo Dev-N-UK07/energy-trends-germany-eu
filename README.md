@@ -34,6 +34,16 @@ This project explores the transition in energy sources using data from Eurostat 
 
 ---
 
+### Key Insights from Germany Energy Mix (1990–2023)
+
+- 🔻 **Solid fossil fuel** consumption has steadily dropped by over 60%.
+- 🔼 **Renewables like Wind and Bioenergy** show a consistent rise — Wind especially after 2005.
+- 🔚 **Nuclear energy** use dropped to zero by 2023, reflecting Germany’s phase-out strategy.
+- ⚡ Natural gas remains relatively stable, with some fluctuation post-2010.
+
+👉 These changes highlight Germany’s aggressive energy transition policies toward renewables.
+
+
 ##  Project Structure
 
 ---
