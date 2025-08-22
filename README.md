@@ -1,28 +1,68 @@
 #  Germany vs EU Energy Trends (1990–2023)
 
-A comparative data analysis visualising how Germany and the European Union (EU‑27) have shifted their energy mix from **fossil fuels** to **renewables** over the past three decades.
+A data-driven analysis of how Germany's energy consumption has evolved over the past three decades — especially its transition to renewables — in comparison with the EU-27 average. This project explores policy impacts, visualises key energy shifts, and aims to showcase Germany's distinctive path in the European energy landscape.
 
----
 
 ##  Project Overview
 
-This project explores the transition in energy sources using data from Eurostat (nrg_bal_c), focusing on:
+This project analyzes Germany’s energy consumption trends from 1990 to 2023 using Eurostat data. It aims to:
 
-- Annual energy consumption by type (coal, oil, gas, nuclear, bioenergy, wind, solar, hydro, geothermal)
-- Trends in Germany vs EU‑27 from 1990 to 2023
-- Visualisations that reveal shifts from fossil fuels to cleaner renewables
+- Understand Germany’s shift from fossil fuels to renewable energy.
+- Compare Germany’s energy trends with the EU-27 average.
+- Identify how policies like Kyoto, Paris Agreement, Energiewende, and 2022 energy crisis affected these transitions.
+- Build compelling visual storytelling using Python and Jupyter.
 
 ---
 
 ##  Data Source
 
-- **Eurostat** – *Energy Balances (nrg_bal_c)*  
-  Filters applied:  
-  - Geography: **Germany**, **European Union – 27 countries (from 2020)**  
-  - Time: **1990–2023**  
-  - Metric: **Gross inland consumption (ktoe)**
+- **Primary Source**: Eurostat's Energy Balances (https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_c/default/table)  
+- **Countries**: Germany, EU-27 (from 2020)  
+- **Time Range**: 1990–2023  
+- **Energy Balance Indicator**: Gross Inland Consumption (GAE)  
+- **Energy Types**: Fossil, Renewables (Bioenergy, Wind, Hydro, Solar), Nuclear, Natural Gas  
+- **Unit**: Ktoe (Kilotonne of Oil Equivalent)
 
 ---
+
+## 🧰 Tools Used
+
+- **Language**: Python  
+- **Notebook Environment**: Jupyter  
+- **Libraries**: Pandas, Matplotlib  
+- **Version Control**: Git & GitHub  
+
+---
+
+## 🧪 Methodology
+
+1. Loaded raw dataset from Eurostat.
+2. Filtered for Germany & EU, 1990–2023, Gross Inland Consumption.
+3. Pivoted dataset for energy sources as columns.
+4. Created clean comparative plots for:
+   - Germany vs EU: Bioenergy vs Solid Fossil Fuels
+   - Wind, Hydro, Solar Thermal (both Germany & EU)
+   - Total Renewable vs Total Fossil (line & area plots)
+5. Annotated plots with policy events (Energiewende, Paris Agreement, etc.)
+6. Exported data and visuals for reuse and presentation.
+
+---
+
+## 📸 Visual Highlights
+
+Visuals include:
+
+- 📉 Bioenergy vs Solid Fossil Fuels (Germany & EU)
+- 🌬️ Wind Energy Consumption (Germany vs EU)
+- 🌊 Hydro Energy Comparison
+- ☀️ Solar Thermal Trends
+- 📈 Total Renewables vs Fossil (Germany & EU)
+- 📝 Annotated charts showing policy impact
+
+All charts saved in `visuals/` folder.
+
+---
+
 
 ##  Sample Visualisations
 
@@ -34,18 +74,79 @@ This project explores the transition in energy sources using data from Eurostat 
 
 ---
 
-### Key Insights from Germany Energy Mix (1990–2023)
+## 📌 Key Insights
 
-- 🔻 **Solid fossil fuel** consumption has steadily dropped by over 60%.
-- 🔼 **Renewables like Wind and Bioenergy** show a consistent rise — Wind especially after 2005.
-- 🔚 **Nuclear energy** use dropped to zero by 2023, reflecting Germany’s phase-out strategy.
-- ⚡ Natural gas remains relatively stable, with some fluctuation post-2010.
+🟢 Germany has significantly increased its bioenergy and wind usage since 2000s.  
+🔴 Solid fossil fuels have sharply declined in Germany — faster than EU average.  
+🌬️ Wind energy grew more rapidly in Germany post-2000, signaling strong policy backing.  
+💡 Germany’s overall renewable shift is steeper than the EU average.  
+🧊 Solar Thermal shows late but steady growth since mid-2000s.  
 
-👉 These changes highlight Germany’s aggressive energy transition policies toward renewables.
-
-
-##  Project Structure
+(*Detailed insights for each chart are added inside the Jupyter notebook.*)
 
 ---
 
-##  How to Run
+## 🏛️ Policy Impact Summary
+
+- **1997 – Kyoto Protocol**: Triggered early awareness on fossil reductions.  
+- **2000 – Energiewende Begins**: Marked Germany’s major renewable energy reforms.  
+- **2015 – Paris Agreement**: Boosted global and EU-wide renewable commitments.  
+- **2022 – Russia-Ukraine War**: Spiked urgency for energy independence → seen in recent trends.
+
+Policy annotations help highlight the cause-effect of real-world events.
+
+---
+## 📁 Folder Structure
+
+```
+/data/
+  germany_energy.csv
+  eu_energy.csv
+
+/notebooks/
+  germany_vs_eu.ipynb
+
+/visuals/
+  *.png (All visual outputs)
+
+README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/yourusername/energy-trends-germany-eu.git
+   cd energy-trends-germany-eu
+   ```
+
+2. Install required packages:
+   ```bash
+   pip install pandas matplotlib jupyter
+   ```
+
+3. Launch the notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+4. Open `notebooks/germany_vs_eu.ipynb` and run cells in order.
+
+---
+
+## 🚀 Future Work
+
+- Integrate Eurostat API for live data updates
+- Expand to include more EU countries
+- Analyze per-capita or % share of renewables
+- Add animated plots or time series storytelling
+
+---
+
+## 🙌 Credits
+
+- Dataset: [Eurostat – Energy Balances](https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_c/default/table)
+- Visual inspiration from EU energy dashboards
+- Developed by Devansh Negi
