@@ -1,35 +1,681 @@
-TIME_PERIOD,Bioenergy,Geothermal,Hydro,Natural gas,Nuclear heat,Oil and petroleum products (excluding biofuel portion),Solar thermal,Solid fossil fuels,Wind
-1990,43243.923,3183.25,24388.936,249793.009,188580.208,547932.145,151.917,382922.722,66.146
-1991,45219.754,3150.862,25418.195,255840.624,193463.9,552017.923,170.427,361880.203,93.337
-1992,45467.42,3419.049,26455.971,247244.03,193848.066,544641.709,188.965,336863.263,130.488
-1993,49103.661,3591.304,27151.247,251696.87,199597.807,545752.356,204.207,320536.148,183.805
-1994,48727.635,3407.464,28016.521,249029.582,198979.163,547391.555,222.393,313746.202,270.966
-1995,50784.76,3437.607,27964.978,270556.005,204531.543,570062.75,272.618,310986.494,316.179
-1996,54034.294,3721.786,28133.042,293533.977,214742.249,583593.889,295.281,310523.44,377.359
-1997,56512.421,3844.48,28526.001,285729.899,216856.09,584697.803,350.258,302061.944,575.559
-1998,57348.282,4116.86,29488.008,294035.297,215220.621,599453.553,384.125,287606.255,894.198
-1999,57345.264,4323.417,29305.846,300647.011,219054.5,590969.608,418.223,272775.116,1148.387
-2000,59390.958,4584.946,30110.361,308597.405,222051.376,579848.361,477.864,279028.247,1829.754
-2001,60310.29,4454.799,32107.785,319655.439,229690.041,596324.431,519.59,278228.148,2213.587
-2002,62876.825,4603.923,26879.172,321954.024,233158.052,593330.788,561.484,278119.455,3015.388
-2003,70391.3,5214.215,26195.753,338619.511,234409.959,598273.888,644.931,285424.801,3724.406
-2004,73464.072,5300.392,27790.954,347546.361,239962.441,600607.661,676.019,283903.621,4947.341
-2005,81159.074,5304.339,26398.121,359711.097,236774.26,598624.311,735.498,274253.822,5856.667
-2006,87342.275,5478.559,26654.086,359550.268,236349.423,596902.106,835.522,281811.851,6770.263
-2007,95099.478,5611.681,26457.845,353037.393,225455.389,579754.007,956.443,282736.264,8593.286
-2008,102244.843,5609.246,27996.841,359282.432,228671.21,577032.035,1118.851,261491.786,9739.884
-2009,107021.775,5454.457,28288.851,337691.735,212636.713,543233.511,1340.497,231680.084,10714.102
-2010,118543.28,5493.109,31971.186,362842.305,219620.718,538857.988,1797.464,245081.534,12028.614
-2011,115248.115,5789.154,26433.826,333517.198,215345.913,523788.928,2177.092,250502.719,14224.086
-2012,126113.197,5709.807,28518.713,327417.89,208372.395,501393.879,3254.772,248765.397,16125.131
-2013,128219.283,5949.864,31643.449,321384.186,206514.047,489254.266,3731.087,244923.871,18018.941
-2014,124720.469,6189.624,31818.505,283520.165,208966.146,485374.372,4124.369,232764.838,19126.533
-2015,128494.162,6502.311,28889.783,296080.561,203781.651,491450.996,4296.047,234081.243,22640.861
-2016,129585.506,6696.838,29715.546,313360.245,197052.792,496334.869,4356.953,224585.892,22950.655
-2017,133085.388,6771.779,25309.198,330987.793,194898.857,510354.753,4548.991,218775.388,26864.666
-2018,137004.709,6785.176,29568.48,324842.595,195247.612,504106.782,4311.249,210260.957,27580.281
-2019,139713.264,6898.189,27537.276,335085.101,196180.921,502231.784,4668.249,171825.468,31580.678
-2020,139567.527,6898.399,29852.042,327021.325,175176.129,437074.23,4500.555,140515.106,34236.761
-2021,151220.607,6790.405,29960.991,339111.428,186662.507,460075.493,3896.867,163495.071,33272.466
-2022,146282.42,6754.707,23745.159,294206.611,155481.428,472582.73,3910.329,162337.281,36272.835
-2023,143174.161,6620.55,28362.307,272603.121,157950.621,465224.714,4054.012,125581.285,41108.907
+TIME_PERIOD,geo,siec,OBS_VALUE
+1990,European Union - 27 countries (from 2020),Bioenergy,43243.923
+1991,European Union - 27 countries (from 2020),Bioenergy,45219.754
+1992,European Union - 27 countries (from 2020),Bioenergy,45467.42
+1993,European Union - 27 countries (from 2020),Bioenergy,49103.661
+1994,European Union - 27 countries (from 2020),Bioenergy,48727.635
+1995,European Union - 27 countries (from 2020),Bioenergy,50784.76
+1996,European Union - 27 countries (from 2020),Bioenergy,54034.294
+1997,European Union - 27 countries (from 2020),Bioenergy,56512.421
+1998,European Union - 27 countries (from 2020),Bioenergy,57348.282
+1999,European Union - 27 countries (from 2020),Bioenergy,57345.264
+2000,European Union - 27 countries (from 2020),Bioenergy,59390.958
+2001,European Union - 27 countries (from 2020),Bioenergy,60310.29
+2002,European Union - 27 countries (from 2020),Bioenergy,62876.825
+2003,European Union - 27 countries (from 2020),Bioenergy,70391.3
+2004,European Union - 27 countries (from 2020),Bioenergy,73464.072
+2005,European Union - 27 countries (from 2020),Bioenergy,81159.074
+2006,European Union - 27 countries (from 2020),Bioenergy,87342.275
+2007,European Union - 27 countries (from 2020),Bioenergy,95099.478
+2008,European Union - 27 countries (from 2020),Bioenergy,102244.843
+2009,European Union - 27 countries (from 2020),Bioenergy,107021.775
+2010,European Union - 27 countries (from 2020),Bioenergy,118543.28
+2011,European Union - 27 countries (from 2020),Bioenergy,115248.115
+2012,European Union - 27 countries (from 2020),Bioenergy,126113.197
+2013,European Union - 27 countries (from 2020),Bioenergy,128219.283
+2014,European Union - 27 countries (from 2020),Bioenergy,124720.469
+2015,European Union - 27 countries (from 2020),Bioenergy,128494.162
+2016,European Union - 27 countries (from 2020),Bioenergy,129585.506
+2017,European Union - 27 countries (from 2020),Bioenergy,133085.388
+2018,European Union - 27 countries (from 2020),Bioenergy,137004.709
+2019,European Union - 27 countries (from 2020),Bioenergy,139713.264
+2020,European Union - 27 countries (from 2020),Bioenergy,139567.527
+2021,European Union - 27 countries (from 2020),Bioenergy,151220.607
+2022,European Union - 27 countries (from 2020),Bioenergy,146282.42
+2023,European Union - 27 countries (from 2020),Bioenergy,143174.161
+1990,European Union - 27 countries (from 2020),Solid fossil fuels,382922.722
+1991,European Union - 27 countries (from 2020),Solid fossil fuels,361880.203
+1992,European Union - 27 countries (from 2020),Solid fossil fuels,336863.263
+1993,European Union - 27 countries (from 2020),Solid fossil fuels,320536.148
+1994,European Union - 27 countries (from 2020),Solid fossil fuels,313746.202
+1995,European Union - 27 countries (from 2020),Solid fossil fuels,310986.494
+1996,European Union - 27 countries (from 2020),Solid fossil fuels,310523.44
+1997,European Union - 27 countries (from 2020),Solid fossil fuels,302061.944
+1998,European Union - 27 countries (from 2020),Solid fossil fuels,287606.255
+1999,European Union - 27 countries (from 2020),Solid fossil fuels,272775.116
+2000,European Union - 27 countries (from 2020),Solid fossil fuels,279028.247
+2001,European Union - 27 countries (from 2020),Solid fossil fuels,278228.148
+2002,European Union - 27 countries (from 2020),Solid fossil fuels,278119.455
+2003,European Union - 27 countries (from 2020),Solid fossil fuels,285424.801
+2004,European Union - 27 countries (from 2020),Solid fossil fuels,283903.621
+2005,European Union - 27 countries (from 2020),Solid fossil fuels,274253.822
+2006,European Union - 27 countries (from 2020),Solid fossil fuels,281811.851
+2007,European Union - 27 countries (from 2020),Solid fossil fuels,282736.264
+2008,European Union - 27 countries (from 2020),Solid fossil fuels,261491.786
+2009,European Union - 27 countries (from 2020),Solid fossil fuels,231680.084
+2010,European Union - 27 countries (from 2020),Solid fossil fuels,245081.534
+2011,European Union - 27 countries (from 2020),Solid fossil fuels,250502.719
+2012,European Union - 27 countries (from 2020),Solid fossil fuels,248765.397
+2013,European Union - 27 countries (from 2020),Solid fossil fuels,244923.871
+2014,European Union - 27 countries (from 2020),Solid fossil fuels,232764.838
+2015,European Union - 27 countries (from 2020),Solid fossil fuels,234081.243
+2016,European Union - 27 countries (from 2020),Solid fossil fuels,224585.892
+2017,European Union - 27 countries (from 2020),Solid fossil fuels,218775.388
+2018,European Union - 27 countries (from 2020),Solid fossil fuels,210260.957
+2019,European Union - 27 countries (from 2020),Solid fossil fuels,171825.468
+2020,European Union - 27 countries (from 2020),Solid fossil fuels,140515.106
+2021,European Union - 27 countries (from 2020),Solid fossil fuels,163495.071
+2022,European Union - 27 countries (from 2020),Solid fossil fuels,162337.281
+2023,European Union - 27 countries (from 2020),Solid fossil fuels,125581.285
+1990,European Union - 27 countries (from 2020),Lignite,140878.258
+1991,European Union - 27 countries (from 2020),Lignite,123060.237
+1992,European Union - 27 countries (from 2020),Lignite,112993.841
+1993,European Union - 27 countries (from 2020),Lignite,107961.503
+1994,European Union - 27 countries (from 2020),Lignite,101795.271
+1995,European Union - 27 countries (from 2020),Lignite,98296.711
+1996,European Union - 27 countries (from 2020),Lignite,97241.366
+1997,European Union - 27 countries (from 2020),Lignite,94724.314
+1998,European Union - 27 countries (from 2020),Lignite,89984.783
+1999,European Union - 27 countries (from 2020),Lignite,85474.456
+2000,European Union - 27 countries (from 2020),Lignite,89940.787
+2001,European Union - 27 countries (from 2020),Lignite,91947.382
+2002,European Union - 27 countries (from 2020),Lignite,92411.492
+2003,European Union - 27 countries (from 2020),Lignite,93878.269
+2004,European Union - 27 countries (from 2020),Lignite,92962.619
+2005,European Union - 27 countries (from 2020),Lignite,90175.439
+2006,European Union - 27 countries (from 2020),Lignite,90016.14
+2007,European Union - 27 countries (from 2020),Lignite,90512.485
+2008,European Union - 27 countries (from 2020),Lignite,87649.443
+2009,European Union - 27 countries (from 2020),Lignite,84855.323
+2010,European Union - 27 countries (from 2020),Lignite,83670.868
+2011,European Union - 27 countries (from 2020),Lignite,87948.97
+2012,European Union - 27 countries (from 2020),Lignite,88517.826
+2013,European Union - 27 countries (from 2020),Lignite,84284.665
+2014,European Union - 27 countries (from 2020),Lignite,81491.509
+2015,European Union - 27 countries (from 2020),Lignite,80954.394
+2016,European Union - 27 countries (from 2020),Lignite,76423.124
+2017,European Union - 27 countries (from 2020),Lignite,77939.055
+2018,European Union - 27 countries (from 2020),Lignite,75397.074
+2019,European Union - 27 countries (from 2020),Lignite,62699.344
+2020,European Union - 27 countries (from 2020),Lignite,51543.488
+2021,European Union - 27 countries (from 2020),Lignite,58357.983
+2022,European Union - 27 countries (from 2020),Lignite,60957.226
+2023,European Union - 27 countries (from 2020),Lignite,46153.323
+1990,European Union - 27 countries (from 2020),Electricity,2900.411
+1991,European Union - 27 countries (from 2020),Electricity,294.232
+1992,European Union - 27 countries (from 2020),Electricity,461.821
+1993,European Union - 27 countries (from 2020),Electricity,463.8
+1994,European Union - 27 countries (from 2020),Electricity,247.206
+1995,European Union - 27 countries (from 2020),Electricity,370.422
+1996,European Union - 27 countries (from 2020),Electricity,-1553.741
+1997,European Union - 27 countries (from 2020),Electricity,-883.835
+1998,European Union - 27 countries (from 2020),Electricity,-996.731
+1999,European Union - 27 countries (from 2020),Electricity,-82.631
+2000,European Union - 27 countries (from 2020),Electricity,760.751
+2001,European Union - 27 countries (from 2020),Electricity,-289.384
+2002,European Union - 27 countries (from 2020),Electricity,611.238
+2003,European Union - 27 countries (from 2020),Electricity,-177.492
+2004,European Union - 27 countries (from 2020),Electricity,-1016.187
+2005,European Union - 27 countries (from 2020),Electricity,632.406
+2006,European Union - 27 countries (from 2020),Electricity,38.977
+2007,European Union - 27 countries (from 2020),Electricity,911.735
+2008,European Union - 27 countries (from 2020),Electricity,1036.398
+2009,European Union - 27 countries (from 2020),Electricity,1486.063
+2010,European Union - 27 countries (from 2020),Electricity,421.271
+2011,European Union - 27 countries (from 2020),Electricity,83.096
+2012,European Union - 27 countries (from 2020),Electricity,583.459
+2013,European Union - 27 countries (from 2020),Electricity,-156.521
+2014,European Union - 27 countries (from 2020),Electricity,-431.937
+2015,European Union - 27 countries (from 2020),Electricity,-573.956
+2016,European Union - 27 countries (from 2020),Electricity,55.581
+2017,European Union - 27 countries (from 2020),Electricity,-393.439
+2018,European Union - 27 countries (from 2020),Electricity,761.008
+2019,European Union - 27 countries (from 2020),Electricity,253.201
+2020,European Union - 27 countries (from 2020),Electricity,1200.542
+2021,European Union - 27 countries (from 2020),Electricity,629.185
+2022,European Union - 27 countries (from 2020),Electricity,1114.523
+2023,European Union - 27 countries (from 2020),Electricity,-38.3
+1990,European Union - 27 countries (from 2020),Fossil energy,1198626.637
+1991,European Union - 27 countries (from 2020),Fossil energy,1185827.354
+1992,European Union - 27 countries (from 2020),Fossil energy,1143921.451
+1993,European Union - 27 countries (from 2020),Fossil energy,1132817.884
+1994,European Union - 27 countries (from 2020),Fossil energy,1125468.462
+1995,European Union - 27 countries (from 2020),Fossil energy,1167848.247
+1996,European Union - 27 countries (from 2020),Fossil energy,1202337.088
+1997,European Union - 27 countries (from 2020),Fossil energy,1188482.564
+1998,European Union - 27 countries (from 2020),Fossil energy,1196036.684
+1999,European Union - 27 countries (from 2020),Fossil energy,1179107.359
+2000,European Union - 27 countries (from 2020),Fossil energy,1182454.674
+2001,European Union - 27 countries (from 2020),Fossil energy,1210767.484
+2002,European Union - 27 countries (from 2020),Fossil energy,1210790.566
+2003,European Union - 27 countries (from 2020),Fossil energy,1238040.372
+2004,European Union - 27 countries (from 2020),Fossil energy,1248091.195
+2005,European Union - 27 countries (from 2020),Fossil energy,1250024.871
+2006,European Union - 27 countries (from 2020),Fossil energy,1255846.141
+2007,European Union - 27 countries (from 2020),Fossil energy,1235343.093
+2008,European Union - 27 countries (from 2020),Fossil energy,1217125.75
+2009,European Union - 27 countries (from 2020),Fossil energy,1130746.752
+2010,European Union - 27 countries (from 2020),Fossil energy,1166776.789
+2011,European Union - 27 countries (from 2020),Fossil energy,1129143.309
+2012,European Union - 27 countries (from 2020),Fossil energy,1098508.12
+2013,European Union - 27 countries (from 2020),Fossil energy,1075471.762
+2014,European Union - 27 countries (from 2020),Fossil energy,1023011.424
+2015,European Union - 27 countries (from 2020),Fossil energy,1042194.071
+2016,European Union - 27 countries (from 2020),Fossil energy,1055532.263
+2017,European Union - 27 countries (from 2020),Fossil energy,1081267.75
+2018,European Union - 27 countries (from 2020),Fossil energy,1061676.634
+2019,European Union - 27 countries (from 2020),Fossil energy,1031130.955
+2020,European Union - 27 countries (from 2020),Fossil energy,925431.089
+2021,European Union - 27 countries (from 2020),Fossil energy,981856.564
+2022,European Union - 27 countries (from 2020),Fossil energy,946940.281
+2023,European Union - 27 countries (from 2020),Fossil energy,881339.572
+1990,European Union - 27 countries (from 2020),Natural gas,249793.009
+1991,European Union - 27 countries (from 2020),Natural gas,255840.624
+1992,European Union - 27 countries (from 2020),Natural gas,247244.03
+1993,European Union - 27 countries (from 2020),Natural gas,251696.87
+1994,European Union - 27 countries (from 2020),Natural gas,249029.582
+1995,European Union - 27 countries (from 2020),Natural gas,270556.005
+1996,European Union - 27 countries (from 2020),Natural gas,293533.977
+1997,European Union - 27 countries (from 2020),Natural gas,285729.899
+1998,European Union - 27 countries (from 2020),Natural gas,294035.297
+1999,European Union - 27 countries (from 2020),Natural gas,300647.011
+2000,European Union - 27 countries (from 2020),Natural gas,308597.405
+2001,European Union - 27 countries (from 2020),Natural gas,319655.439
+2002,European Union - 27 countries (from 2020),Natural gas,321954.024
+2003,European Union - 27 countries (from 2020),Natural gas,338619.511
+2004,European Union - 27 countries (from 2020),Natural gas,347546.361
+2005,European Union - 27 countries (from 2020),Natural gas,359711.097
+2006,European Union - 27 countries (from 2020),Natural gas,359550.268
+2007,European Union - 27 countries (from 2020),Natural gas,353037.393
+2008,European Union - 27 countries (from 2020),Natural gas,359282.432
+2009,European Union - 27 countries (from 2020),Natural gas,337691.735
+2010,European Union - 27 countries (from 2020),Natural gas,362842.305
+2011,European Union - 27 countries (from 2020),Natural gas,333517.198
+2012,European Union - 27 countries (from 2020),Natural gas,327417.89
+2013,European Union - 27 countries (from 2020),Natural gas,321384.186
+2014,European Union - 27 countries (from 2020),Natural gas,283520.165
+2015,European Union - 27 countries (from 2020),Natural gas,296080.561
+2016,European Union - 27 countries (from 2020),Natural gas,313360.245
+2017,European Union - 27 countries (from 2020),Natural gas,330987.793
+2018,European Union - 27 countries (from 2020),Natural gas,324842.595
+2019,European Union - 27 countries (from 2020),Natural gas,335085.101
+2020,European Union - 27 countries (from 2020),Natural gas,327021.325
+2021,European Union - 27 countries (from 2020),Natural gas,339111.428
+2022,European Union - 27 countries (from 2020),Natural gas,294206.611
+2023,European Union - 27 countries (from 2020),Natural gas,272603.121
+1990,European Union - 27 countries (from 2020),Heat,91.397
+1991,European Union - 27 countries (from 2020),Heat,86.649
+1992,European Union - 27 countries (from 2020),Heat,93.04
+1993,European Union - 27 countries (from 2020),Heat,49.379
+1994,European Union - 27 countries (from 2020),Heat,39.706
+1995,European Union - 27 countries (from 2020),Heat,64.866
+1996,European Union - 27 countries (from 2020),Heat,89.419
+1997,European Union - 27 countries (from 2020),Heat,98.782
+1998,European Union - 27 countries (from 2020),Heat,123.947
+1999,European Union - 27 countries (from 2020),Heat,127.352
+2000,European Union - 27 countries (from 2020),Heat,254.633
+2001,European Union - 27 countries (from 2020),Heat,223.13
+2002,European Union - 27 countries (from 2020),Heat,308.413
+2003,European Union - 27 countries (from 2020),Heat,333.147
+2004,European Union - 27 countries (from 2020),Heat,455.441
+2005,European Union - 27 countries (from 2020),Heat,529.87
+2006,European Union - 27 countries (from 2020),Heat,546.496
+2007,European Union - 27 countries (from 2020),Heat,594.026
+2008,European Union - 27 countries (from 2020),Heat,703.739
+2009,European Union - 27 countries (from 2020),Heat,591.694
+2010,European Union - 27 countries (from 2020),Heat,703.738
+2011,European Union - 27 countries (from 2020),Heat,715.717
+2012,European Union - 27 countries (from 2020),Heat,747.198
+2013,European Union - 27 countries (from 2020),Heat,821.372
+2014,European Union - 27 countries (from 2020),Heat,872.116
+2015,European Union - 27 countries (from 2020),Heat,954.442
+2016,European Union - 27 countries (from 2020),Heat,1047.099
+2017,European Union - 27 countries (from 2020),Heat,1122.735
+2018,European Union - 27 countries (from 2020),Heat,1080.247
+2019,European Union - 27 countries (from 2020),Heat,1090.742
+2020,European Union - 27 countries (from 2020),Heat,1106.622
+2021,European Union - 27 countries (from 2020),Heat,1102.122
+2022,European Union - 27 countries (from 2020),Heat,895.799
+2023,European Union - 27 countries (from 2020),Heat,726.733
+1990,European Union - 27 countries (from 2020),Nuclear heat,188580.208
+1991,European Union - 27 countries (from 2020),Nuclear heat,193463.9
+1992,European Union - 27 countries (from 2020),Nuclear heat,193848.066
+1993,European Union - 27 countries (from 2020),Nuclear heat,199597.807
+1994,European Union - 27 countries (from 2020),Nuclear heat,198979.163
+1995,European Union - 27 countries (from 2020),Nuclear heat,204531.543
+1996,European Union - 27 countries (from 2020),Nuclear heat,214742.249
+1997,European Union - 27 countries (from 2020),Nuclear heat,216856.09
+1998,European Union - 27 countries (from 2020),Nuclear heat,215220.621
+1999,European Union - 27 countries (from 2020),Nuclear heat,219054.5
+2000,European Union - 27 countries (from 2020),Nuclear heat,222051.376
+2001,European Union - 27 countries (from 2020),Nuclear heat,229690.041
+2002,European Union - 27 countries (from 2020),Nuclear heat,233158.052
+2003,European Union - 27 countries (from 2020),Nuclear heat,234409.959
+2004,European Union - 27 countries (from 2020),Nuclear heat,239962.441
+2005,European Union - 27 countries (from 2020),Nuclear heat,236774.26
+2006,European Union - 27 countries (from 2020),Nuclear heat,236349.423
+2007,European Union - 27 countries (from 2020),Nuclear heat,225455.389
+2008,European Union - 27 countries (from 2020),Nuclear heat,228671.21
+2009,European Union - 27 countries (from 2020),Nuclear heat,212636.713
+2010,European Union - 27 countries (from 2020),Nuclear heat,219620.718
+2011,European Union - 27 countries (from 2020),Nuclear heat,215345.913
+2012,European Union - 27 countries (from 2020),Nuclear heat,208372.395
+2013,European Union - 27 countries (from 2020),Nuclear heat,206514.047
+2014,European Union - 27 countries (from 2020),Nuclear heat,208966.146
+2015,European Union - 27 countries (from 2020),Nuclear heat,203781.651
+2016,European Union - 27 countries (from 2020),Nuclear heat,197052.792
+2017,European Union - 27 countries (from 2020),Nuclear heat,194898.857
+2018,European Union - 27 countries (from 2020),Nuclear heat,195247.612
+2019,European Union - 27 countries (from 2020),Nuclear heat,196180.921
+2020,European Union - 27 countries (from 2020),Nuclear heat,175176.129
+2021,European Union - 27 countries (from 2020),Nuclear heat,186662.507
+2022,European Union - 27 countries (from 2020),Nuclear heat,155481.428
+2023,European Union - 27 countries (from 2020),Nuclear heat,157950.621
+1990,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),547932.145
+1991,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),552017.923
+1992,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),544641.709
+1993,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),545752.356
+1994,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),547391.555
+1995,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),570062.75
+1996,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),583593.889
+1997,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),584697.803
+1998,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),599453.553
+1999,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),590969.608
+2000,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),579848.361
+2001,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),596324.431
+2002,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),593330.788
+2003,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),598273.888
+2004,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),600607.661
+2005,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),598624.311
+2006,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),596902.106
+2007,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),579754.007
+2008,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),577032.035
+2009,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),543233.511
+2010,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),538857.988
+2011,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),523788.928
+2012,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),501393.879
+2013,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),489254.266
+2014,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),485374.372
+2015,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),491450.996
+2016,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),496334.869
+2017,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),510354.753
+2018,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),504106.782
+2019,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),502231.784
+2020,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),437074.23
+2021,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),460075.493
+2022,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),472582.73
+2023,European Union - 27 countries (from 2020),Oil and petroleum products (excluding biofuel portion),465224.714
+1990,European Union - 27 countries (from 2020),Crude oil,515049.13
+1991,European Union - 27 countries (from 2020),Crude oil,509859.936
+1992,European Union - 27 countries (from 2020),Crude oil,513339.944
+1993,European Union - 27 countries (from 2020),Crude oil,522668.001
+1994,European Union - 27 countries (from 2020),Crude oil,535134.452
+1995,European Union - 27 countries (from 2020),Crude oil,545391.887
+1996,European Union - 27 countries (from 2020),Crude oil,562686.722
+1997,European Union - 27 countries (from 2020),Crude oil,570238.066
+1998,European Union - 27 countries (from 2020),Crude oil,598075.959
+1999,European Union - 27 countries (from 2020),Crude oil,566534.695
+2000,European Union - 27 countries (from 2020),Crude oil,576969.187
+2001,European Union - 27 countries (from 2020),Crude oil,575188.741
+2002,European Union - 27 countries (from 2020),Crude oil,563047.794
+2003,European Union - 27 countries (from 2020),Crude oil,582519.418
+2004,European Union - 27 countries (from 2020),Crude oil,595784.256
+2005,European Union - 27 countries (from 2020),Crude oil,600454.049
+2006,European Union - 27 countries (from 2020),Crude oil,590160.946
+2007,European Union - 27 countries (from 2020),Crude oil,584147.093
+2008,European Union - 27 countries (from 2020),Crude oil,584958.828
+2009,European Union - 27 countries (from 2020),Crude oil,538848.054
+2010,European Union - 27 countries (from 2020),Crude oil,537785.187
+2011,European Union - 27 countries (from 2020),Crude oil,520232.942
+2012,European Union - 27 countries (from 2020),Crude oil,525198.007
+2013,European Union - 27 countries (from 2020),Crude oil,498742.302
+2014,European Union - 27 countries (from 2020),Crude oil,501244.805
+2015,European Union - 27 countries (from 2020),Crude oil,532332.717
+2016,European Union - 27 countries (from 2020),Crude oil,532832.155
+2017,European Union - 27 countries (from 2020),Crude oil,544705.127
+2018,European Union - 27 countries (from 2020),Crude oil,536609.355
+2019,European Union - 27 countries (from 2020),Crude oil,526251.61
+2020,European Union - 27 countries (from 2020),Crude oil,460294.999
+2021,European Union - 27 countries (from 2020),Crude oil,471846.349
+2022,European Union - 27 countries (from 2020),Crude oil,495569.61
+2023,European Union - 27 countries (from 2020),Crude oil,492998.939
+1990,European Union - 27 countries (from 2020),Natural gas liquids,5384.685
+1991,European Union - 27 countries (from 2020),Natural gas liquids,5421.561
+1992,European Union - 27 countries (from 2020),Natural gas liquids,5320.286
+1993,European Union - 27 countries (from 2020),Natural gas liquids,6017.162
+1994,European Union - 27 countries (from 2020),Natural gas liquids,6493.517
+1995,European Union - 27 countries (from 2020),Natural gas liquids,8226.853
+1996,European Union - 27 countries (from 2020),Natural gas liquids,8368.543
+1997,European Union - 27 countries (from 2020),Natural gas liquids,8180.34
+1998,European Union - 27 countries (from 2020),Natural gas liquids,7965.45
+1999,European Union - 27 countries (from 2020),Natural gas liquids,8276.977
+2000,European Union - 27 countries (from 2020),Natural gas liquids,9043.465
+2001,European Union - 27 countries (from 2020),Natural gas liquids,9914.041
+2002,European Union - 27 countries (from 2020),Natural gas liquids,11756.668
+2003,European Union - 27 countries (from 2020),Natural gas liquids,12079.293
+2004,European Union - 27 countries (from 2020),Natural gas liquids,11684.275
+2005,European Union - 27 countries (from 2020),Natural gas liquids,12251.994
+2006,European Union - 27 countries (from 2020),Natural gas liquids,15167.463
+2007,European Union - 27 countries (from 2020),Natural gas liquids,12251.017
+2008,European Union - 27 countries (from 2020),Natural gas liquids,10954.203
+2009,European Union - 27 countries (from 2020),Natural gas liquids,11875.217
+2010,European Union - 27 countries (from 2020),Natural gas liquids,10429.796
+2011,European Union - 27 countries (from 2020),Natural gas liquids,10034.501
+2012,European Union - 27 countries (from 2020),Natural gas liquids,9729.535
+2013,European Union - 27 countries (from 2020),Natural gas liquids,10235.462
+2014,European Union - 27 countries (from 2020),Natural gas liquids,9491.599
+2015,European Union - 27 countries (from 2020),Natural gas liquids,9589.728
+2016,European Union - 27 countries (from 2020),Natural gas liquids,8865.423
+2017,European Union - 27 countries (from 2020),Natural gas liquids,10197.886
+2018,European Union - 27 countries (from 2020),Natural gas liquids,8403.366
+2019,European Union - 27 countries (from 2020),Natural gas liquids,6547.348
+2020,European Union - 27 countries (from 2020),Natural gas liquids,7579.838
+2021,European Union - 27 countries (from 2020),Natural gas liquids,6115.999
+2022,European Union - 27 countries (from 2020),Natural gas liquids,8437.145
+2023,European Union - 27 countries (from 2020),Natural gas liquids,9471.965
+1990,European Union - 27 countries (from 2020),Peat,3018.756
+1991,European Union - 27 countries (from 2020),Peat,3382.348
+1992,European Union - 27 countries (from 2020),Peat,3427.706
+1993,European Union - 27 countries (from 2020),Peat,3210.808
+1994,European Union - 27 countries (from 2020),Peat,3415.532
+1995,European Union - 27 countries (from 2020),Peat,3152.746
+1996,European Union - 27 countries (from 2020),Peat,3589.193
+1997,European Union - 27 countries (from 2020),Peat,3785.266
+1998,European Union - 27 countries (from 2020),Peat,3432.085
+1999,European Union - 27 countries (from 2020),Peat,2754.148
+2000,European Union - 27 countries (from 2020),Peat,2547.787
+2001,European Union - 27 countries (from 2020),Peat,3331.874
+2002,European Union - 27 countries (from 2020),Peat,3769.999
+2003,European Union - 27 countries (from 2020),Peat,3588.329
+2004,European Union - 27 countries (from 2020),Peat,3017.47
+2005,European Union - 27 countries (from 2020),Peat,2810.59
+2006,European Union - 27 countries (from 2020),Peat,3366.871
+2007,European Union - 27 countries (from 2020),Peat,3680.374
+2008,European Union - 27 countries (from 2020),Peat,3470.599
+2009,European Union - 27 countries (from 2020),Peat,3276.973
+2010,European Union - 27 countries (from 2020),Peat,3377.881
+2011,European Union - 27 countries (from 2020),Peat,3178.009
+2012,European Union - 27 countries (from 2020),Peat,3002.434
+2013,European Union - 27 countries (from 2020),Peat,2076.849
+2014,European Union - 27 countries (from 2020),Peat,2354.574
+2015,European Union - 27 countries (from 2020),Peat,2318.675
+2016,European Union - 27 countries (from 2020),Peat,2327.987
+2017,European Union - 27 countries (from 2020),Peat,2171.977
+2018,European Union - 27 countries (from 2020),Peat,2334.388
+2019,European Union - 27 countries (from 2020),Peat,2284.137
+2020,European Union - 27 countries (from 2020),Peat,1727.958
+2021,European Union - 27 countries (from 2020),Peat,1359.468
+2022,European Union - 27 countries (from 2020),Peat,1262.563
+2023,European Union - 27 countries (from 2020),Peat,924.169
+1990,European Union - 27 countries (from 2020),Primary solid biofuels,40651.523
+1991,European Union - 27 countries (from 2020),Primary solid biofuels,42570.061
+1992,European Union - 27 countries (from 2020),Primary solid biofuels,42674.264
+1993,European Union - 27 countries (from 2020),Primary solid biofuels,46099.838
+1994,European Union - 27 countries (from 2020),Primary solid biofuels,45577.139
+1995,European Union - 27 countries (from 2020),Primary solid biofuels,47177.38
+1996,European Union - 27 countries (from 2020),Primary solid biofuels,50059.838
+1997,European Union - 27 countries (from 2020),Primary solid biofuels,52071.107
+1998,European Union - 27 countries (from 2020),Primary solid biofuels,52714.349
+1999,European Union - 27 countries (from 2020),Primary solid biofuels,52310.26
+2000,European Union - 27 countries (from 2020),Primary solid biofuels,53554.139
+2001,European Union - 27 countries (from 2020),Primary solid biofuels,53826.11
+2002,European Union - 27 countries (from 2020),Primary solid biofuels,55389.195
+2003,European Union - 27 countries (from 2020),Primary solid biofuels,61813.204
+2004,European Union - 27 countries (from 2020),Primary solid biofuels,63754.27
+2005,European Union - 27 countries (from 2020),Primary solid biofuels,68536.875
+2006,European Union - 27 countries (from 2020),Primary solid biofuels,71536.004
+2007,European Union - 27 countries (from 2020),Primary solid biofuels,75352.691
+2008,European Union - 27 countries (from 2020),Primary solid biofuels,79865.19
+2009,European Union - 27 countries (from 2020),Primary solid biofuels,81565.421
+2010,European Union - 27 countries (from 2020),Primary solid biofuels,90038.353
+2011,European Union - 27 countries (from 2020),Primary solid biofuels,84677.329
+2012,European Union - 27 countries (from 2020),Primary solid biofuels,92401.34
+2013,European Union - 27 countries (from 2020),Primary solid biofuels,93831.019
+2014,European Union - 27 countries (from 2020),Primary solid biofuels,88163.472
+2015,European Union - 27 countries (from 2020),Primary solid biofuels,91093.019
+2016,European Union - 27 countries (from 2020),Primary solid biofuels,91971.782
+2017,European Union - 27 countries (from 2020),Primary solid biofuels,93242.921
+2018,European Union - 27 countries (from 2020),Primary solid biofuels,95908.933
+2019,European Union - 27 countries (from 2020),Primary solid biofuels,97169.335
+2020,European Union - 27 countries (from 2020),Primary solid biofuels,96146.479
+2021,European Union - 27 countries (from 2020),Primary solid biofuels,104519.384
+2022,European Union - 27 countries (from 2020),Primary solid biofuels,100387.448
+2023,European Union - 27 countries (from 2020),Primary solid biofuels,95785.252
+1990,European Union - 27 countries (from 2020),Charcoal,8.049
+1991,European Union - 27 countries (from 2020),Charcoal,8.789
+1992,European Union - 27 countries (from 2020),Charcoal,8.789
+1993,European Union - 27 countries (from 2020),Charcoal,9.53
+1994,European Union - 27 countries (from 2020),Charcoal,10.163
+1995,European Union - 27 countries (from 2020),Charcoal,11.644
+1996,European Union - 27 countries (from 2020),Charcoal,11.644
+1997,European Union - 27 countries (from 2020),Charcoal,12.348
+1998,European Union - 27 countries (from 2020),Charcoal,12.348
+1999,European Union - 27 countries (from 2020),Charcoal,10.187
+2000,European Union - 27 countries (from 2020),Charcoal,39.653
+2001,European Union - 27 countries (from 2020),Charcoal,36.844
+2002,European Union - 27 countries (from 2020),Charcoal,36.801
+2003,European Union - 27 countries (from 2020),Charcoal,138.502
+2004,European Union - 27 countries (from 2020),Charcoal,152.663
+2005,European Union - 27 countries (from 2020),Charcoal,169.942
+2006,European Union - 27 countries (from 2020),Charcoal,174.729
+2007,European Union - 27 countries (from 2020),Charcoal,232.225
+2008,European Union - 27 countries (from 2020),Charcoal,234.38
+2009,European Union - 27 countries (from 2020),Charcoal,277.143
+2010,European Union - 27 countries (from 2020),Charcoal,265.595
+2011,European Union - 27 countries (from 2020),Charcoal,329.972
+2012,European Union - 27 countries (from 2020),Charcoal,366.523
+2013,European Union - 27 countries (from 2020),Charcoal,353.553
+2014,European Union - 27 countries (from 2020),Charcoal,358.927
+2015,European Union - 27 countries (from 2020),Charcoal,378.31
+2016,European Union - 27 countries (from 2020),Charcoal,351.103
+2017,European Union - 27 countries (from 2020),Charcoal,362.709
+2018,European Union - 27 countries (from 2020),Charcoal,409.082
+2019,European Union - 27 countries (from 2020),Charcoal,359.137
+2020,European Union - 27 countries (from 2020),Charcoal,327.31
+2021,European Union - 27 countries (from 2020),Charcoal,305.604
+2022,European Union - 27 countries (from 2020),Charcoal,271.222
+2023,European Union - 27 countries (from 2020),Charcoal,280.745
+1990,European Union - 27 countries (from 2020),Renewables and biofuels,71047.951
+1991,European Union - 27 countries (from 2020),Renewables and biofuels,74104.623
+1992,European Union - 27 countries (from 2020),Renewables and biofuels,75711.46
+1993,European Union - 27 countries (from 2020),Renewables and biofuels,80284.305
+1994,European Union - 27 countries (from 2020),Renewables and biofuels,80709.566
+1995,European Union - 27 countries (from 2020),Renewables and biofuels,82824.303
+1996,European Union - 27 countries (from 2020),Renewables and biofuels,86663.66
+1997,European Union - 27 countries (from 2020),Renewables and biofuels,89869.771
+1998,European Union - 27 countries (from 2020),Renewables and biofuels,92272.826
+1999,European Union - 27 countries (from 2020),Renewables and biofuels,92556.495
+2000,European Union - 27 countries (from 2020),Renewables and biofuels,96362.754
+2001,European Union - 27 countries (from 2020),Renewables and biofuels,99636.758
+2002,European Union - 27 countries (from 2020),Renewables and biofuels,97909.111
+2003,European Union - 27 countries (from 2020),Renewables and biofuels,106412.448
+2004,European Union - 27 countries (from 2020),Renewables and biofuels,112581.188
+2005,European Union - 27 countries (from 2020),Renewables and biofuels,119921.759
+2006,European Union - 27 countries (from 2020),Renewables and biofuels,127929.511
+2007,European Union - 27 countries (from 2020),Renewables and biofuels,137984.031
+2008,European Union - 27 countries (from 2020),Renewables and biofuels,148648.63
+2009,European Union - 27 countries (from 2020),Renewables and biofuels,155750.491
+2010,European Union - 27 countries (from 2020),Renewables and biofuels,174007.355
+2011,European Union - 27 countries (from 2020),Renewables and biofuels,171342.874
+2012,European Union - 27 countries (from 2020),Renewables and biofuels,189509.96
+2013,European Union - 27 countries (from 2020),Renewables and biofuels,198893.444
+2014,European Union - 27 countries (from 2020),Renewables and biofuels,198876.088
+2015,European Union - 27 countries (from 2020),Renewables and biofuels,204904.082
+2016,European Union - 27 countries (from 2020),Renewables and biofuels,208335.849
+2017,European Union - 27 countries (from 2020),Renewables and biofuels,216118.312
+2018,European Union - 27 countries (from 2020),Renewables and biofuels,225725.508
+2019,European Union - 27 countries (from 2020),Renewables and biofuels,232470.806
+2020,European Union - 27 countries (from 2020),Renewables and biofuels,239400.729
+2021,European Union - 27 countries (from 2020),Renewables and biofuels,251960.528
+2022,European Union - 27 countries (from 2020),Renewables and biofuels,249390.214
+2023,European Union - 27 countries (from 2020),Renewables and biofuels,260692.345
+1990,European Union - 27 countries (from 2020),Hydro,24388.936
+1991,European Union - 27 countries (from 2020),Hydro,25418.195
+1992,European Union - 27 countries (from 2020),Hydro,26455.971
+1993,European Union - 27 countries (from 2020),Hydro,27151.247
+1994,European Union - 27 countries (from 2020),Hydro,28016.521
+1995,European Union - 27 countries (from 2020),Hydro,27964.978
+1996,European Union - 27 countries (from 2020),Hydro,28133.042
+1997,European Union - 27 countries (from 2020),Hydro,28526.001
+1998,European Union - 27 countries (from 2020),Hydro,29488.008
+1999,European Union - 27 countries (from 2020),Hydro,29305.846
+2000,European Union - 27 countries (from 2020),Hydro,30110.361
+2001,European Union - 27 countries (from 2020),Hydro,32107.785
+2002,European Union - 27 countries (from 2020),Hydro,26879.172
+2003,European Union - 27 countries (from 2020),Hydro,26195.753
+2004,European Union - 27 countries (from 2020),Hydro,27790.954
+2005,European Union - 27 countries (from 2020),Hydro,26398.121
+2006,European Union - 27 countries (from 2020),Hydro,26654.086
+2007,European Union - 27 countries (from 2020),Hydro,26457.845
+2008,European Union - 27 countries (from 2020),Hydro,27996.841
+2009,European Union - 27 countries (from 2020),Hydro,28288.851
+2010,European Union - 27 countries (from 2020),Hydro,31971.186
+2011,European Union - 27 countries (from 2020),Hydro,26433.826
+2012,European Union - 27 countries (from 2020),Hydro,28518.713
+2013,European Union - 27 countries (from 2020),Hydro,31643.449
+2014,European Union - 27 countries (from 2020),Hydro,31818.505
+2015,European Union - 27 countries (from 2020),Hydro,28889.783
+2016,European Union - 27 countries (from 2020),Hydro,29715.546
+2017,European Union - 27 countries (from 2020),Hydro,25309.198
+2018,European Union - 27 countries (from 2020),Hydro,29568.48
+2019,European Union - 27 countries (from 2020),Hydro,27537.276
+2020,European Union - 27 countries (from 2020),Hydro,29852.042
+2021,European Union - 27 countries (from 2020),Hydro,29960.991
+2022,European Union - 27 countries (from 2020),Hydro,23745.159
+2023,European Union - 27 countries (from 2020),Hydro,28362.307
+1990,European Union - 27 countries (from 2020),Geothermal,3183.25
+1991,European Union - 27 countries (from 2020),Geothermal,3150.862
+1992,European Union - 27 countries (from 2020),Geothermal,3419.049
+1993,European Union - 27 countries (from 2020),Geothermal,3591.304
+1994,European Union - 27 countries (from 2020),Geothermal,3407.464
+1995,European Union - 27 countries (from 2020),Geothermal,3437.607
+1996,European Union - 27 countries (from 2020),Geothermal,3721.786
+1997,European Union - 27 countries (from 2020),Geothermal,3844.48
+1998,European Union - 27 countries (from 2020),Geothermal,4116.86
+1999,European Union - 27 countries (from 2020),Geothermal,4323.417
+2000,European Union - 27 countries (from 2020),Geothermal,4584.946
+2001,European Union - 27 countries (from 2020),Geothermal,4454.799
+2002,European Union - 27 countries (from 2020),Geothermal,4603.923
+2003,European Union - 27 countries (from 2020),Geothermal,5214.215
+2004,European Union - 27 countries (from 2020),Geothermal,5300.392
+2005,European Union - 27 countries (from 2020),Geothermal,5304.339
+2006,European Union - 27 countries (from 2020),Geothermal,5478.559
+2007,European Union - 27 countries (from 2020),Geothermal,5611.681
+2008,European Union - 27 countries (from 2020),Geothermal,5609.246
+2009,European Union - 27 countries (from 2020),Geothermal,5454.457
+2010,European Union - 27 countries (from 2020),Geothermal,5493.109
+2011,European Union - 27 countries (from 2020),Geothermal,5789.154
+2012,European Union - 27 countries (from 2020),Geothermal,5709.807
+2013,European Union - 27 countries (from 2020),Geothermal,5949.864
+2014,European Union - 27 countries (from 2020),Geothermal,6189.624
+2015,European Union - 27 countries (from 2020),Geothermal,6502.311
+2016,European Union - 27 countries (from 2020),Geothermal,6696.838
+2017,European Union - 27 countries (from 2020),Geothermal,6771.779
+2018,European Union - 27 countries (from 2020),Geothermal,6785.176
+2019,European Union - 27 countries (from 2020),Geothermal,6898.189
+2020,European Union - 27 countries (from 2020),Geothermal,6898.399
+2021,European Union - 27 countries (from 2020),Geothermal,6790.405
+2022,European Union - 27 countries (from 2020),Geothermal,6754.707
+2023,European Union - 27 countries (from 2020),Geothermal,6620.55
+1990,European Union - 27 countries (from 2020),Wind,66.146
+1991,European Union - 27 countries (from 2020),Wind,93.337
+1992,European Union - 27 countries (from 2020),Wind,130.488
+1993,European Union - 27 countries (from 2020),Wind,183.805
+1994,European Union - 27 countries (from 2020),Wind,270.966
+1995,European Union - 27 countries (from 2020),Wind,316.179
+1996,European Union - 27 countries (from 2020),Wind,377.359
+1997,European Union - 27 countries (from 2020),Wind,575.559
+1998,European Union - 27 countries (from 2020),Wind,894.198
+1999,European Union - 27 countries (from 2020),Wind,1148.387
+2000,European Union - 27 countries (from 2020),Wind,1829.754
+2001,European Union - 27 countries (from 2020),Wind,2213.587
+2002,European Union - 27 countries (from 2020),Wind,3015.388
+2003,European Union - 27 countries (from 2020),Wind,3724.406
+2004,European Union - 27 countries (from 2020),Wind,4947.341
+2005,European Union - 27 countries (from 2020),Wind,5856.667
+2006,European Union - 27 countries (from 2020),Wind,6770.263
+2007,European Union - 27 countries (from 2020),Wind,8593.286
+2008,European Union - 27 countries (from 2020),Wind,9739.884
+2009,European Union - 27 countries (from 2020),Wind,10714.102
+2010,European Union - 27 countries (from 2020),Wind,12028.614
+2011,European Union - 27 countries (from 2020),Wind,14224.086
+2012,European Union - 27 countries (from 2020),Wind,16125.131
+2013,European Union - 27 countries (from 2020),Wind,18018.941
+2014,European Union - 27 countries (from 2020),Wind,19126.533
+2015,European Union - 27 countries (from 2020),Wind,22640.861
+2016,European Union - 27 countries (from 2020),Wind,22950.655
+2017,European Union - 27 countries (from 2020),Wind,26864.666
+2018,European Union - 27 countries (from 2020),Wind,27580.281
+2019,European Union - 27 countries (from 2020),Wind,31580.678
+2020,European Union - 27 countries (from 2020),Wind,34236.761
+2021,European Union - 27 countries (from 2020),Wind,33272.466
+2022,European Union - 27 countries (from 2020),Wind,36272.835
+2023,European Union - 27 countries (from 2020),Wind,41108.907
+1990,European Union - 27 countries (from 2020),Solar thermal,151.917
+1991,European Union - 27 countries (from 2020),Solar thermal,170.427
+1992,European Union - 27 countries (from 2020),Solar thermal,188.965
+1993,European Union - 27 countries (from 2020),Solar thermal,204.207
+1994,European Union - 27 countries (from 2020),Solar thermal,222.393
+1995,European Union - 27 countries (from 2020),Solar thermal,272.618
+1996,European Union - 27 countries (from 2020),Solar thermal,295.281
+1997,European Union - 27 countries (from 2020),Solar thermal,350.258
+1998,European Union - 27 countries (from 2020),Solar thermal,384.125
+1999,European Union - 27 countries (from 2020),Solar thermal,418.223
+2000,European Union - 27 countries (from 2020),Solar thermal,477.864
+2001,European Union - 27 countries (from 2020),Solar thermal,519.59
+2002,European Union - 27 countries (from 2020),Solar thermal,561.484
+2003,European Union - 27 countries (from 2020),Solar thermal,644.931
+2004,European Union - 27 countries (from 2020),Solar thermal,676.019
+2005,European Union - 27 countries (from 2020),Solar thermal,735.498
+2006,European Union - 27 countries (from 2020),Solar thermal,835.522
+2007,European Union - 27 countries (from 2020),Solar thermal,956.443
+2008,European Union - 27 countries (from 2020),Solar thermal,1118.851
+2009,European Union - 27 countries (from 2020),Solar thermal,1340.497
+2010,European Union - 27 countries (from 2020),Solar thermal,1797.464
+2011,European Union - 27 countries (from 2020),Solar thermal,2177.092
+2012,European Union - 27 countries (from 2020),Solar thermal,3254.772
+2013,European Union - 27 countries (from 2020),Solar thermal,3731.087
+2014,European Union - 27 countries (from 2020),Solar thermal,4124.369
+2015,European Union - 27 countries (from 2020),Solar thermal,4296.047
+2016,European Union - 27 countries (from 2020),Solar thermal,4356.953
+2017,European Union - 27 countries (from 2020),Solar thermal,4548.991
+2018,European Union - 27 countries (from 2020),Solar thermal,4311.249
+2019,European Union - 27 countries (from 2020),Solar thermal,4668.249
+2020,European Union - 27 countries (from 2020),Solar thermal,4500.555
+2021,European Union - 27 countries (from 2020),Solar thermal,3896.867
+2022,European Union - 27 countries (from 2020),Solar thermal,3910.329
+2023,European Union - 27 countries (from 2020),Solar thermal,4054.012
+1990,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.222
+1991,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.479
+1992,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.388
+1993,European Union - 27 countries (from 2020),"Tide, wave, ocean",42.497
+1994,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.111
+1995,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.63
+1996,European Union - 27 countries (from 2020),"Tide, wave, ocean",42.188
+1997,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.81
+1998,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.858
+1999,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.281
+2000,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.621
+2001,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.697
+2002,European Union - 27 countries (from 2020),"Tide, wave, ocean",42.514
+2003,European Union - 27 countries (from 2020),"Tide, wave, ocean",42.164
+2004,European Union - 27 countries (from 2020),"Tide, wave, ocean",40.428
+2005,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.35
+2006,European Union - 27 countries (from 2020),"Tide, wave, ocean",39.92
+2007,European Union - 27 countries (from 2020),"Tide, wave, ocean",40.008
+2008,European Union - 27 countries (from 2020),"Tide, wave, ocean",39.993
+2009,European Union - 27 countries (from 2020),"Tide, wave, ocean",38.538
+2010,European Union - 27 countries (from 2020),"Tide, wave, ocean",40.963
+2011,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.039
+2012,European Union - 27 countries (from 2020),"Tide, wave, ocean",39.38
+2013,European Union - 27 countries (from 2020),"Tide, wave, ocean",35.561
+2014,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.318
+2015,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.912
+2016,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.041
+2017,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.86
+2018,European Union - 27 countries (from 2020),"Tide, wave, ocean",41.267
+2019,European Union - 27 countries (from 2020),"Tide, wave, ocean",42.903
+2020,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.746
+2021,European Union - 27 countries (from 2020),"Tide, wave, ocean",43.233
+2022,European Union - 27 countries (from 2020),"Tide, wave, ocean",44.152
+2023,European Union - 27 countries (from 2020),"Tide, wave, ocean",39.663
