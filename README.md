@@ -1,36 +1,41 @@
 #  Germany vs EU Energy Trends (1990–2023)
 
-A data-driven analysis of how Germany's energy consumption has evolved over the past three decades — especially its transition to renewables — in comparison with the EU-27 average. This project explores policy impacts, visualises key energy shifts, and aims to showcase Germany's distinctive path in the European energy landscape.
+A data-driven analysis of how Germany's energy consumption has evolved over the past three decades, especially its transition to renewables, in comparison with the EU-27 average. This project explores policy impacts, visualises key energy shifts, and aims to showcase Germany's distinctive path in the European energy landscape.
 
+---
 
 ##  Project Overview
 
-This project analyzes Germany’s energy consumption trends from 1990 to 2023 using Eurostat data. It aims to:
+This project analyses and compares the energy consumption trends of Germany and the European Union (EU-27) from 1990 to 2023, focusing on the transition from fossil fuels to renewable sources.
 
-- Understand Germany’s shift from fossil fuels to renewable energy.
-- Compare Germany’s energy trends with the EU-27 average.
-- Identify how policies like Kyoto, Paris Agreement, Energiewende, and 2022 energy crisis affected these transitions.
-- Build compelling visual storytelling using Python and Jupyter.
+Through fuel-wise analysis, visual storytelling, and policy-event annotations, we aim to answer:
+- How has Germany's renewable adoption differed from the EU average?
+- What role did major global events and policies, such as Kyoto, Fukushima, and the Ukraine crisis, play?
+- Is Germany ahead of or behind in terms of reducing its dependency on fossil fuels?
+  
+The project uses Eurostat’s official datasets, ensuring reliability and comparability over three decades of energy data.
 
 ---
 
 ##  Data Source
 
-- **Primary Source**: Eurostat's Energy Balances (https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_c/default/table)  
-- **Countries**: Germany, EU-27 (from 2020)  
-- **Time Range**: 1990–2023  
-- **Energy Balance Indicator**: Gross Inland Consumption (GAE)  
-- **Energy Types**: Fossil, Renewables (Bioenergy, Wind, Hydro, Solar), Nuclear, Natural Gas  
-- **Unit**: Ktoe (Kilotonne of Oil Equivalent)
+This project uses official datasets from Eurostat, covering energy balances and renewable energy shares for both Germany and the EU-27.
+
+| Dataset         | Description                                                                                                                         | Link                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+|  nrg_bal_c      | Detailed energy balances by fuel type and country (1990–2023). Used for analysing consumption trends of fossil and renewable fuels. | [Eurostat – nrg\_bal\_c](https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_c/default/table?lang=en)         |
+|  nrg_ind_share  | Share of energy from renewable sources in gross final consumption (%), 2004–2023.                                                   | [Eurostat – nrg\_ind\_share](https://ec.europa.eu/eurostat/databrowser/view/nrg_ind_share/default/table?lang=en) |
 
 ---
 
 ## 🧰 Tools Used
 
-- **Language**: Python  
-- **Notebook Environment**: Jupyter  
-- **Libraries**: Pandas, Matplotlib  
-- **Version Control**: Git & GitHub  
+🧰 Tools & Technologies
+- Python – Data cleaning, transformation, analysis
+- Pandas – Data manipulation, pivoting, grouping
+- Matplotlib & Seaborn – Advanced visualisations and annotations
+- Jupyter Notebook – Exploratory analysis & documentation
+- Git & GitHub – Version control and project publishing
 
 ---
 
@@ -50,27 +55,21 @@ This project analyzes Germany’s energy consumption trends from 1990 to 2023 us
 
 ## 📸 Visual Highlights
 
-Visuals include:
+**1. Grouped Bar Chart: % Change in Renewables vs Fossil Fuels (1990–2023)**
+Shows comparative progress of Germany and the EU in energy transition.
+![Grouped Bar: % Change in Renewables vs Fossil Fuels](./visuals/germany_vs_eu_renew_fossil_change.png)
 
-- 📉 Bioenergy vs Solid Fossil Fuels (Germany & EU)
-- 🌬️ Wind Energy Consumption (Germany vs EU)
-- 🌊 Hydro Energy Comparison
-- ☀️ Solar Thermal Trends
-- 📈 Total Renewables vs Fossil (Germany & EU)
-- 📝 Annotated charts showing policy impact
+**2. Germany vs EU - Renewable Share(%) (2004–2023)**
 
-All charts saved in `visuals/` folder.
+Demonstrates how Germany led the renewable growth in recent years.
+![Renewable Share Over Time](./visuals/germany_vs_eu_renewables_share.png)
 
----
-
-
-##  Sample Visualisations
-
-| Germany: Bioenergy vs Solid Fossil Fuels | EU‑27: Bioenergy vs Solid Fossil Fuels |
-|-----------------------------------------|----------------------------------------|
-| ![Bio vs Fossil – Germany](notebooks/images/germany_bio_vs_fossil.png) | ![Bio vs Fossil – EU](notebooks/images/eu_bio_vs_fossil.png) |
-
-*(Add your actual plot images here)*
+**3. Final Energy Mix (2023) - Pie Charts**
+Visual summary of current fuel breakdowns for both Germany and the EU.
+<div align="center">
+<img src="./visuals/germany_energy_pie_2023_clean.png" width="360"/>
+<img src="./visuals/eu_energy_pie_2023_clean.png" width="360"/>
+</div>
 
 ---
 
@@ -135,13 +134,23 @@ README.md
 4. Open `notebooks/germany_vs_eu.ipynb` and run cells in order.
 
 ---
+## Conclusion
 
-## 🚀 Future Work
+## ✅ Skills Demonstrated
 
-- Integrate Eurostat API for live data updates
-- Expand to include more EU countries
-- Analyze per-capita or % share of renewables
-- Add animated plots or time series storytelling
+- **Data Analysis & Cleaning**: Hands-on work with Eurostat datasets (`nrg_bal_c`, `nrg_ind_share`) involving filtering, pivoting, reshaping, and cleaning complex energy data.
+- **Data Visualisation**: Created clear, comparative plots using Matplotlib & Seaborn — including time-series trends, grouped bars, and custom donut pie charts.
+- **Insight Derivation**: Interpreted energy trends across decades, comparing Germany and the EU in terms of renewable adoption, fossil fuel decline, and policy impacts.
+- **Structured Jupyter Notebook Workflow**: Maintained a clean, modular project structure with reusable code blocks and markdown documentation.
+- **Version Control & GitHub**: Practised collaborative coding and version tracking using GitHub repositories and README enhancements.
+
+## 🎯 Outcome & Impact
+
+This project presents a clear, visual, and data-driven narrative of how **Germany has transitioned to cleaner energy more rapidly than the EU average**, while also highlighting regional energy diversity. It strengthens my portfolio as a **data analyst with energy domain knowledge**, and sets a foundation for possible future extensions like:
+
+- Interactive dashboards (Power BI, Plotly Dash, or React-based visualizers)
+- API integration with live Eurostat data
+- Country-level comparison beyond Germany
 
 ---
 
